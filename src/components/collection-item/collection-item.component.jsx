@@ -24,7 +24,7 @@ return (
                 
 
             </div>
-            <CustomButton onClick={() => addItem(item)} inverted>Add to cart</CustomButton>
+            <CustomButton className='custom-button' onClick={() => addItem(item)} inverted>Add to cart</CustomButton>
 
         </div>
 
